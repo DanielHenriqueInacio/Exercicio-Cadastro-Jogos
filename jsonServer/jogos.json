@@ -23,6 +23,18 @@
       "categoria": "Aventura/Ação",
       "ano_lancamento": "2014",
       "id": 8
+    },
+    {
+      "nome": "God Of War",
+      "categoria": "Ação/RPG",
+      "ano_lancamento": "2018",
+      "id": 9
+    },
+    {
+      "nome": "Fifa 22",
+      "categoria": "Esporte",
+      "ano_lancamento": "2021",
+      "id": 10
     }
   ]
 }

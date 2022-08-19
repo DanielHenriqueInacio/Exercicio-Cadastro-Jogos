@@ -187,6 +187,7 @@ function excluirJogo(item) {
                     listarJogos()
                     limparCampos();
                     desabilitarCampos();
+                    desabilitarBotaoSalvar()
                 })
 
             Swal.fire(
@@ -202,6 +203,7 @@ function excluirJogo(item) {
 function limpar() {
     limparCampos()
     desabilitarCampos()
+    desabilitarBotaoSalvar()
 }
 
 function limparCampos() {
