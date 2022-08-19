@@ -68,11 +68,19 @@ function validarCampos(campo) {
     })
 
     if(temCampoVazio == 0) {
-        get("btn-salvar").removeAttribute("disabled");
+        habilitarBotaoSalvar()
     }else {
-        get("btn-salvar").setAttribute("disabled", "disabled");
+        desabilitarBotaoSalvar()
     }
 
+}
+
+function habilitarBotaoSalvar() {
+    get("btn-salvar").removeAttribute("disabled");
+}
+
+function desabilitarBotaoSalvar() {
+    get("btn-salvar").setAttribute("disabled", "disabled");
 }
 
 function visualizar(item) {
@@ -125,6 +133,8 @@ function salvarJogo() {
             listarJogos()
             limparCampos()
             desabilitarCampos()
+            desabilitarBotaoSalvar()
+
 
             Swal.fire(
                 'Parabéns!',
@@ -150,6 +160,7 @@ function editarJogo(item) {
     carregarDadosDoJogo(id)
 
     habilitarCampos();
+    habilitarBotaoSalvar()
 
     get("jogo_id").value = id;
 }

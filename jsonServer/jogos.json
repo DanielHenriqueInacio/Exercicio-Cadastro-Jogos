@@ -7,19 +7,6 @@
       "id": 1
     },
     {
-      "jogo_id": "2",
-      "nome": "CupHead",
-      "categoria": "Aventura",
-      "ano_lancamento": "2018",
-      "id": 2
-    },
-    {
-      "nome": "Farcry",
-      "categoria": "aventura/ação",
-      "ano_lancamento": 2014,
-      "id": 3
-    },
-    {
       "nome": "Ori",
       "categoria": "aventura",
       "ano_lancamento": "2017",
@@ -30,6 +17,12 @@
       "categoria": "Tower Defense",
       "ano_lancamento": "2015",
       "id": 7
+    },
+    {
+      "nome": "Farcry 4",
+      "categoria": "Aventura/Ação",
+      "ano_lancamento": "2014",
+      "id": 8
     }
   ]
 }
