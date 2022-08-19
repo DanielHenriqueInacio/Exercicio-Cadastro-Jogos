@@ -1,0 +1,190 @@
+@charset "utf8";
+
+/*Reset*/
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:content-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    background-color: #b0b0b0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Edição do Formulário*/
+
+.titulo {
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #E3D9BF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 3.50rem;
+    margin-left: 3rem;
+    padding: 3rem;
+}
+
+.form-titulo {
+    margin-bottom: 0.30rem;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.50rem;
+}
+
+form input {
+    padding: 0.50rem;
+    border-radius: 0.30rem;
+    border-style: none;
+    border: 0.20rem solid black;
+    background-color: #ffe8d6;
+    font-family: Roboto;
+    font-size: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+input:disabled{
+    background-color:#ccc;
+    border: 0.20rem solid #999;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1rem;
+    border-radius: 0.30rem;
+    border: 0.20rem solid black;
+    cursor: pointer;
+}
+
+.limpar {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.salvar {
+    background-color: #185405;
+    color: #fff;
+}
+
+.salvar:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.cadastrar {
+    width: 8rem;
+    height: 2.50rem;
+    margin-bottom: 1rem;
+    background-color: #4c80f6;
+}
+
+/*Edição da Tabela*/
+
+tr, th, td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-family: 'Silkscreen', cursive;
+    background-color: #7e7d7d;
+    color: #E3D9BF;
+}
+
+th, td {
+    font-size: 1.20rem;
+    height: 2rem;
+    text-align: center;
+}
+
+tr {
+    height: 2rem;
+}
+
+td {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.20rem;
+}
+
+tr:nth-child(even) {
+    background-color: #e7b7b7;
+}
+
+tr:nth-child(odd) {
+    background-color: #e8d8b7;
+}
+
+.tabela {
+    margin-top: 8rem;
+    margin-right: 3rem;
+    width: 52rem;
+}
+
+.id {
+    width: 3rem;
+}
+
+.nome {
+    width: 21rem;
+}
+
+.categoria {
+    width: 18rem;
+}
+
+.acao {
+    width: 7rem;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    border:none;
+    align-items: center;
+}
+
+.fa-eye {
+    color: #0d4fdc;
+}
+
+.fa-pencil {
+    color: #2b9104;
+}
+
+.fa-trash-can {
+    color: #ea0000;
+}

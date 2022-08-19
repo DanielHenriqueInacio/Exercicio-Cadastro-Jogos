@@ -1,0 +1,35 @@
+{
+  "jogos": [
+    {
+      "nome": "The Witcher 3",
+      "categoria": "Ação/RPG",
+      "ano_lancamento": "2015",
+      "id": 1
+    },
+    {
+      "jogo_id": "2",
+      "nome": "CupHead",
+      "categoria": "Aventura",
+      "ano_lancamento": "2018",
+      "id": 2
+    },
+    {
+      "nome": "Farcry",
+      "categoria": "aventura/ação",
+      "ano_lancamento": 2014,
+      "id": 3
+    },
+    {
+      "nome": "Ori",
+      "categoria": "aventura",
+      "ano_lancamento": "2017",
+      "id": 6
+    },
+    {
+      "nome": "Clash Royale",
+      "categoria": "Tower Defense",
+      "ano_lancamento": "2015",
+      "id": 7
+    }
+  ]
+}

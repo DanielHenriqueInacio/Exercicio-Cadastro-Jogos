@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meus Jogos</title>
+</head>
+<body>
+    <nav>
+        <h1 class="titulo">Meus Jogos</h1>
+    </nav>
+    <div class="container">
+    
+        <form class="form" action="" method="post" id="form-jogos">
+            <input type="hidden" name="jogo_id" id="jogo_id">
+            <div class="form-group">
+                <label for="nome" class="form-titulo">Nome</label>
+                <input type="text" class="campo" name="nome" id="nome" disabled="disabled" readonly="readonly">
+            </div>
+            <div class="form-group">
+                <label for="categoria" class="form-titulo">Categoria</label>
+                <input type="text" class="campo" name="categoria" id="categoria" disabled="disabled" readonly="readonly">
+            </div>
+            <div class="form-group">
+                <label for="ano_lancamento" class="form-titulo">Ano de Lançamento</label>
+                <input type="number" class="campo" name="ano_lancamento" id="ano_lancamento" disabled="disabled" readonly="readonly">
+            </div>
+
+            <div class="botoes">
+                <button type="button" class="btn limpar" id="btn-limpar">Limpar</button>
+                <button type="button" class="btn salvar" disabled="disabled" id="btn-salvar">Salvar</button>
+            </div>
+
+        </form>
+
+        <div class="tabela">
+
+            <button type="submit" class="btn cadastrar" id="btn-cadastrar">Cadastrar</button>
+
+            <table class="">
+                <thead>
+                    <tr>
+                        <th class="id">Id</th>
+                        <th class="nome">Nome</th>
+                        <th class="categoria">Categoria</th>
+                        <th class="acao">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-jogo">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
