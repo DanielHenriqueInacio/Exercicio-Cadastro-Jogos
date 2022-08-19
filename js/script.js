@@ -180,7 +180,7 @@ function excluirJogo(item) {
 
             Swal.fire(
                 'Já era!',
-                'O jogo tal foi apagado com sucesso',
+                'O jogo foi apagado com sucesso',
                 'success'
             )
         }
